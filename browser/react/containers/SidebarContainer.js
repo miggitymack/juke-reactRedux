@@ -4,7 +4,6 @@ import Sidebar from '../components/Sidebar';
 import {connect} from 'react-redux';
 
 const mapStateToProps = function (state, ownProps) {
-  console.log('state in SidebarContainer', state);
   return {
     playlists: state.playlists.list
   }

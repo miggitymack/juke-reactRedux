@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router';
 
 export default function Sidebar (props) {
+  console.log('sidebar props',props);
 
   const playlists = props.playlists;
 

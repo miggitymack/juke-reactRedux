@@ -7,7 +7,7 @@ const DUMMY_STATIONS_DATA = [
   { name: 'Classical' }
 ];
 
-export default function Stations (props) {
+export default function Stations (props)
   return (
     <div>
       <h3>Stations</h3>

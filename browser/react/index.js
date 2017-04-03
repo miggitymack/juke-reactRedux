@@ -51,6 +51,10 @@ const onPlaylistEnter = function (nextRouterState) {
   store.dispatch(getPlaylistById(playlistId));
 };
 
+const onStationsEnter = function (nextRouterState) {
+  store.dispatch(loadAllSongs())
+}
+
 ReactDOM.render(
   <Provider store={store}>
     <Router history={hashHistory}>
